@@ -1,0 +1,20 @@
+This is a preliminary design for a 32bit control board, based on the Atmel SAM3A Microcontroller.
+A few features:
+4 Layer construction
+Designed for 24v Operation
+Native MicroSD
+Polulu style stepper motor controllers
+
+This board is designed for 24v operation only. A 20v OVLO is enabled on the main voltage regulator to prevent 12v operation. Because of this I removed any 12v power supply connectors.
+The Hotbed, Hotend, Fan and Z Probe all have 24v connections. The Z Endstop uses a 4 pin configuration instead of a 3 pin. The extra pin supplies 24v for use with additional probes. Please be sure your probe can use 24v, or use an adapter with a 12v regulator to supply the normal 12v for the probe.
+
+Since this version (version 0.6) is preliminary, I do not recommend its use until the design can be verified.
+A BOM and PIN Mapping will be developed and shared as the design matures.
+
+If you'd like to donate so I can buy the full version of Eagle, and make more cool stuff, please contact me through Google+ at https://plus.google.com/+StephanieS3D
+
+Disclaimer:
+These designs are provided without any warrenty, expressed or implied. This is a prototype designed for hobbiest use only.
+Care should be taken during use and appropriate safety precautions taken.
+The author is providing this item "as is". The author does not provide any warranty of the item whatsoever, whether express, implied, or statutory, including, but not limited to, any warranty of merchantability or fitness for a particular purpose or any warranty that the contents of the item will be error-free.
+In no respect shall the author incur any liability for any damages, including, but limited to, direct, indirect, special, or consequential damages arising out of, resulting from, or any way connected to the use of the item, whether or not based upon warranty, contract, tort, or otherwise; whether or not injury was sustained by persons or property or otherwise; and whether or not loss was sustained from, or arose out of, the results of, the item, or any services that may be provided by the author.
