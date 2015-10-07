@@ -6661,6 +6661,12 @@ XTAL</text>
 <text x="-7.62" y="5.334" size="1.27" layer="104">&gt;NAME</text>
 <text x="-7.62" y="-5.334" size="1.27" layer="104" rot="MR180">&gt;VALUE</text>
 </symbol>
+<symbol name="+15V">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<pin name="+15V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+3V3" prefix="+3V3">
@@ -9424,6 +9430,19 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <attribute name="MANUFACTURER" value="STMicroelectronics" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="L78L15ABUTR" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+15V" prefix="+3V3">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+15V" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
